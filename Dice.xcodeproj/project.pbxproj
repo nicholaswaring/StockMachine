@@ -10,6 +10,13 @@
 		59B6B1702BEE76BD00C641E5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6B16F2BEE76BD00C641E5 /* Home.swift */; };
 		59B6B1722BEE775900C641E5 /* LoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6B1712BEE775900C641E5 /* LoopingScrollView.swift */; };
 		59B6B1742BEE77C200C641E5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6B1732BEE77C200C641E5 /* Models.swift */; };
+		59DA1A322BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A312BF2A00F00F5FB4D /* 8-bit fortress.ttf */; };
+		59DA1A332BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A312BF2A00F00F5FB4D /* 8-bit fortress.ttf */; };
+		59DA1A342BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A312BF2A00F00F5FB4D /* 8-bit fortress.ttf */; };
+		59DA1A362BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A352BF2A08400F5FB4D /* PixelOperator8.ttf */; };
+		59DA1A372BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A352BF2A08400F5FB4D /* PixelOperator8.ttf */; };
+		59DA1A382BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A352BF2A08400F5FB4D /* PixelOperator8.ttf */; };
+		59DA1A3B2BF2A2B700F5FB4D /* PixelOperator-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DA1A3A2BF2A2B700F5FB4D /* PixelOperator-Bold.ttf */; };
 		59E4FC602BEEC1BA00B118F9 /* LoopingScrollView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4FC5F2BEEC1BA00B118F9 /* LoopingScrollView2.swift */; };
 		59E4FC622BEEC1C600B118F9 /* LoopingScrollView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4FC612BEEC1C600B118F9 /* LoopingScrollView3.swift */; };
 		59E971AA2BED81E700BC2975 /* DiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E971A92BED81E700BC2975 /* DiceApp.swift */; };
@@ -44,6 +51,10 @@
 		59B6B16F2BEE76BD00C641E5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		59B6B1712BEE775900C641E5 /* LoopingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingScrollView.swift; sourceTree = "<group>"; };
 		59B6B1732BEE77C200C641E5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		59DA1A312BF2A00F00F5FB4D /* 8-bit fortress.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-bit fortress.ttf"; sourceTree = "<group>"; };
+		59DA1A352BF2A08400F5FB4D /* PixelOperator8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperator8.ttf; sourceTree = "<group>"; };
+		59DA1A392BF2A0D400F5FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59DA1A3A2BF2A2B700F5FB4D /* PixelOperator-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelOperator-Bold.ttf"; sourceTree = "<group>"; };
 		59E4FC5F2BEEC1BA00B118F9 /* LoopingScrollView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingScrollView2.swift; sourceTree = "<group>"; };
 		59E4FC612BEEC1C600B118F9 /* LoopingScrollView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingScrollView3.swift; sourceTree = "<group>"; };
 		59E971A62BED81E700BC2975 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59DA1A302BF29FE100F5FB4D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				59DA1A3A2BF2A2B700F5FB4D /* PixelOperator-Bold.ttf */,
+				59DA1A352BF2A08400F5FB4D /* PixelOperator8.ttf */,
+				59DA1A312BF2A00F00F5FB4D /* 8-bit fortress.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		59E9719D2BED81E700BC2975 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +129,8 @@
 		59E971A82BED81E700BC2975 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				59DA1A392BF2A0D400F5FB4D /* Info.plist */,
+				59DA1A302BF29FE100F5FB4D /* Font */,
 				59E4FC612BEEC1C600B118F9 /* LoopingScrollView3.swift */,
 				59E4FC5F2BEEC1BA00B118F9 /* LoopingScrollView2.swift */,
 				59B6B1732BEE77C200C641E5 /* Models.swift */,
@@ -252,8 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DA1A362BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */,
 				59E971B12BED81E700BC2975 /* Preview Assets.xcassets in Resources */,
 				59E971AE2BED81E700BC2975 /* Assets.xcassets in Resources */,
+				59DA1A322BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */,
+				59DA1A3B2BF2A2B700F5FB4D /* PixelOperator-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DA1A372BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */,
+				59DA1A332BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DA1A382BF2A08400F5FB4D /* PixelOperator8.ttf in Resources */,
+				59DA1A342BF2A00F00F5FB4D /* 8-bit fortress.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +483,7 @@
 				DEVELOPMENT_TEAM = RDVTK69L6Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -482,6 +513,7 @@
 				DEVELOPMENT_TEAM = RDVTK69L6Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
